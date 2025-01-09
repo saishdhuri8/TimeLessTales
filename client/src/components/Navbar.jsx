@@ -30,7 +30,7 @@ const Navbar = () => {
         <nav className="fixed w-screen z-20 flex items-center justify-between bg-black py-4 px-6 shadow-md">
             {/* Logo Section */}
             <div className="flex items-center space-x-3">
-                <img src="/src/assets/logo.png" alt="logo" className="h-10 w-10" />
+                <img src="https://res.cloudinary.com/ddnpfkfe0/image/upload/v1736457544/i4gwlrxicmejzillb8te.png" alt="logo" className="h-10 w-10" />
                 <Link to={"/"}><span className="text-white text-lg font-bold hover:underline">TimeLessTales</span></Link>
             </div>
 
