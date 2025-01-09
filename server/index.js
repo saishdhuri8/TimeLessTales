@@ -13,7 +13,7 @@ const app = express();
 connectDB().then(app.listen(process.env.PORT,()=>{console.log(`App listening @ ${5000}`)}))
 
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE","PATCH"], 
     allowedHeaders: ["Content-Type", "Authorization"] 
 }));
