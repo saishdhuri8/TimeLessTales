@@ -1,8 +1,8 @@
 import { Route, Routes } from "react-router"
 
-import Signup from "./components/authComponents/signup"
+import Signup from "./components/authComponents/Signup"
 import Login from "./components/authComponents/Login"
-import AuthLayout from "./components/layouts/authLayout"
+import AuthLayout from "./components/layouts/AuthLayout"
 import HomeLayout from "./components/layouts/HomeLayout"
 import DetailedCard from "./components/DetailedCard"
 import AllCards from "./components/AllCards"
