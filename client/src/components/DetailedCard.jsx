@@ -15,6 +15,7 @@ const DetailedCard = () => {
 
 
     useEffect(() => {
+        window.scrollTo(0, 0);
         const fetchCompeletePost = async () => {
             const completePost = await getDetailedPost(postId);
             setpost(completePost);
