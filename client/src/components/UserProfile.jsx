@@ -10,6 +10,7 @@ const UserProfile = () => {
   const { userId } = useParams();
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const fetchAll = async () => {
       try {
         const userDetails = await getCompleteUserInfo(userId);
