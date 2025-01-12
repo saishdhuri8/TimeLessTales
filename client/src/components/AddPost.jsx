@@ -5,6 +5,7 @@ import { addPost, clearUser } from '../services/slices/userSlice';
 import { useNavigate } from 'react-router';
 
 const AddPost = () => {
+     useEffect(()=>{ window.scrollTo(0, 0)},[])
     const [title, setTitle] = useState("");
     const [tags, setTags] = useState("");
     const [summary, setSummary] = useState("");
