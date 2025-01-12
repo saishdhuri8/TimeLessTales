@@ -46,14 +46,13 @@ const Login = () => {
       dispatch(updateUser(userData.user));
       localStorage.setItem("profile", userData.token);
 
-      navigate(-1);
       setEmail('');
       setPassword('');
       setPasswordCorrect(false);
       setServerError(false);
       setUserExists(false);
-
       setLoading(false); // Stop loading
+      navigate("/");
     } catch (error) {
       console.error('Error during login:', error);
       setServerError(true);
