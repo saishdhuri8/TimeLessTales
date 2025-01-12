@@ -8,6 +8,7 @@ const DeletePost = () => {
   const [posts, setposts] = useState([]);
 
   useEffect(() => {
+    window.scrollTo(0, 0);
     const fetchAll = async () => {
       const allposts = await getUserPosts(post);
       setposts(allposts);
